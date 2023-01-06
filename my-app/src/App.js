@@ -13,7 +13,7 @@ const App = () => {
         <>
             <Headers/>
             <Container>
-                <AppRouter asd={asd}></AppRouter>
+                <AppRouter number={number} setNumber={setNumber} asd={asd}></AppRouter>
             </Container>
         </>
     );
